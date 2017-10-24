@@ -9,5 +9,6 @@ public class RearrangeRunner{
    public static void main(){
        Rearrange word = new Rearrange("helloworld");
        System.out.println(word.alphabetize());
+       System.out.println(word.reverse());
     }
 }
